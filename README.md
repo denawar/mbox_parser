@@ -12,4 +12,4 @@ if you want use alias file type this:
 
 cd [repository_folder_path] 
 
-cat <mbox_file_path> | java -classpath ./bin com.grishin.mboxparser.main.Main -a [aliases_file_path]
+cat [mbox_file_path] | java -classpath ./bin com.grishin.mboxparser.main.Main -a [aliases_file_path]
